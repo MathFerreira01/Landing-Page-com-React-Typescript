@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.article`
     position: absolute;
     top: 105px;
     left: 80px;
@@ -17,7 +17,7 @@ export const Container = styled.div`
         font-size: 15px;
     }
 
-    div {
+    article {
         display: flex;
         align-items:center;
 
@@ -28,7 +28,7 @@ export const Container = styled.div`
         }
     }
 
-    i {
+    div {
         width: 154px;
         height: 77px;
         position: absolute;

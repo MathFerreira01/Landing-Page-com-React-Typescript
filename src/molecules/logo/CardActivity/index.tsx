@@ -5,14 +5,14 @@ const CardActivity = () => {
   return (
     <S.Container>
       <small>Activity</small>
-      <div>
+      <article>
         <span>18</span>
         <FiArrowUp size={25} color="#fff" />
-      </div>
+      </article>
 
-      <i className="circle1"></i>
-      <i className="circle2"></i>
-      <i className="circle3"></i>
+      <div className="circle1"></div>
+      <div className="circle2"></div>
+      <div className="circle3"></div>
     </S.Container>
   );
 };
